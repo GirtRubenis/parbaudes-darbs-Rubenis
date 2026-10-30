@@ -1,0 +1,8 @@
+J1. Pieeja pirms koda 
+Avērt žurnālfails teksta redaktorā, kas spēj apstrādāt lielus failus.
+Izmantot meklešanas funkciju, lai atrastu rindas ar kļūdu apzīmējumu-error.
+Apskatīt katra kļūdas ieraksta sākumā esošo laika zīmi un fiksēt stundu.
+Aprēķināt vai novērtēt, kurā diennnakts stundā šo ierakstu ir visvairāk.
+
+J2. Objekti, nevis teksts
+Powershell padod tālāk objektus ar nosauktiem laukiem, nevis pliku tekst. Tas ļauj tieši vērsties pie konkrēta parametra (piemēram, atminas apjoma) neuztraucoties par teksta rindiņas dalīšanu kolonnās.
