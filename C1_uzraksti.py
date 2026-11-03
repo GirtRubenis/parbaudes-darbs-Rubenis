@@ -15,12 +15,12 @@ if len(sys.argv) < 2:
 level = sys.argv[1]
 lines = []
 
-with open("system.log", encoding="utf-8") as f:
+with open("sistema.log", encoding="utf-8") as f:
     for line in f:
         if level in line:
             lines.append(line)
 
 print(len(lines))
 
-with open(f"{level}.txt", "w", encoding="utf-8") as f:
-    f.writelines(lines)
+with open(f"{level}.txt", "w", encoding="utf-8") as burger:
+    burger.writelines(lines)
